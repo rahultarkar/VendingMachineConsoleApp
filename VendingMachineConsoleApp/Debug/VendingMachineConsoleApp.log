@@ -1,0 +1,11 @@
+﻿  pch.cpp
+  Block.cpp
+  Item.cpp
+  LinkedList.cpp
+  Node.cpp
+  Slab.cpp
+  Stack.cpp
+  VendingMachine.cpp
+  VendingMachineConsoleApp.cpp
+  Generating Code...
+  VendingMachineConsoleApp.vcxproj -> C:\DevTools\Assignments\VendingMachineConsoleApp\VendingMachineConsoleApp\Debug\VendingMachineConsoleApp.exe
