@@ -42,5 +42,21 @@ void Block::setUnitPrice(double price)
 
 void Block::showBlock()
 {
-	std::cout << itemName + ", Price : " + std::to_string(unitPrice) + ", Quantity : " + std::to_string(stack->getSize());
+	if (stack != nullptr)
+		std::cout << itemName + ", P : " + std::to_string(std::lround(unitPrice)) + ", Qty : " + std::to_string(stack->getSize()) + " | ";
+}
+
+string Block::getItemName()
+{
+	return itemName;
+}
+
+int Block::getNumOfItems()
+{
+	return stack->getSize();
+}
+
+double Block::getUnitPrice()
+{
+	return unitPrice;
 }

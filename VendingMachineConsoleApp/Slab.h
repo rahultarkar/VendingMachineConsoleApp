@@ -12,8 +12,10 @@ class Slab
 		Slab(char, Block*[]);
 		~Slab();
 		void showBlocks();
+		Block* findBlockByName(string itemName);
 	private:
-		Block* blocks[10];
+		Block* blocks[3];
 		char id;
+		int count;
 };
 #endif

@@ -17,6 +17,9 @@ class Block
 		void addItem(Item*);
 		void setItemName(string);
 		void setUnitPrice(double);
+		string getItemName();
+		int getNumOfItems();
+		double getUnitPrice();
 	private:
 		Stack* stack;
 		string itemName;

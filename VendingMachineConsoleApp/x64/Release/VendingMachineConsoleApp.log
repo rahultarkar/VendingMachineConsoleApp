@@ -1,0 +1,13 @@
+﻿  pch.cpp
+  Block.cpp
+  Item.cpp
+  LinkedList.cpp
+  Node.cpp
+  Slab.cpp
+  Stack.cpp
+  VendingMachine.cpp
+  VendingMachineConsoleApp.cpp
+  Generating code
+  All 217 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  VendingMachineConsoleApp.vcxproj -> C:\DevTools\Assignments\VendingMachineConsoleApp\VendingMachineConsoleApp\x64\Release\VendingMachineConsoleApp.exe
